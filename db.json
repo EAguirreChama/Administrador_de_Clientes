@@ -1,0 +1,13 @@
+{
+  "clientes": [
+    {
+      "Nombre": "Ernesto",
+      "Apellido": "Aguirre",
+      "Email": "correo@correo.com",
+      "Teléfono": "123-123-1234",
+      "Empresa": "Amway",
+      "Puesto": "Empresario",
+      "id": 1
+    }
+  ]
+}
