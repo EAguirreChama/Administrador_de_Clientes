@@ -39,7 +39,7 @@
         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 ">
 
             <RouterLink 
-                to="/"
+                :to="{ name: 'editar-cliente', params: { id: cliente.id }}"
                 class="text-indigo-600 hover:text-indigo-900 mr-5"
             >Editar</RouterLink>
 
