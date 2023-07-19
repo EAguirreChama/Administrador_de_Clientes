@@ -7,7 +7,7 @@
       "Teléfono": "123-123-1234",
       "Empresa": "Amway",
       "Puesto": "Empresario",
-      "estado": 1,
+      "estado": true,
       "id": 1
     },
     {
@@ -17,7 +17,7 @@
       "Teléfono": "123-123-1234",
       "Empresa": "Amway",
       "Puesto": "Empresario",
-      "estado": 0,
+      "estado": false,
       "id": 2
     }
   ]

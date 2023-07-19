@@ -9,6 +9,8 @@
         }
     })
 
+    defineEmits(['actualizar-estado', 'eliminar-cliente'])
+
     const nombreCliente = computed(() => {
         return props.cliente.Nombre + ' ' + props.cliente.Apellido
     })
@@ -31,7 +33,8 @@
         <td class="whitespace-nowrap px-3 py-4 text-sm">
             <button
                 class="inline-flex rounded-full px-2 text-xs font-semibold leading-5"
-                :class="[estadoCliente ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'] "
+                :class="[estadoCliente ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800']"
+                @click="$emit('actualizar-estado', { id: cliente.id, estado: cliente.estado})"
             >
                 {{ estadoCliente ? 'Activo' : 'Inactivo'}}
             </button>
@@ -45,6 +48,7 @@
 
             <button
                 class="text-red-600 hover:text-red-900"
+                @click="$emit('eliminar-cliente', cliente.id)"     
             >
                 Eliminar
             </button>
