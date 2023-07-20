@@ -2,7 +2,7 @@
 
 ## **📌 ¿De qué se trata?**
 
-📍 La idea de este proyecto es construir una aplicación web para poder administrar clientes. Podrás tener un listado de todos los clientes que se encuentren, podrás editarlos si quisieras.  
+📍 La idea de este proyecto es construir una aplicación web para poder administrar clientes. Tendrás un listado de todos los clientes que se encuentren y podrás editarlos/eliminarlos si quisieras.  
 
 📍 Muy simple en su uso para cualquier persona que recien este empezando a adminitrar su negocio.
 
@@ -10,7 +10,7 @@
 
 📍 Podrás activar o desactivar los clientes en un solo click
 
-📍 **Deploy:** [Administrador de Pacientes](https://administrador-pacientes-vuejs.netlify.app/)
+📍 **Deploy:** [Administrador de Clientes](https://administrador-pacientes-vuejs.netlify.app/)
 
  <br /> 
  
