@@ -1,29 +1,47 @@
-# crm-vue
+# 📝 **Administrador de Clientes** 📝
 
-This template should help get you started developing with Vue 3 in Vite.
+## **📌 ¿De qué se trata?**
 
-## Recommended IDE Setup
+📍 La idea de este proyecto es construir una aplicación web para poder administrar clientes. Podrás tener un listado de todos los clientes que se encuentren, podrás editarlos si quisieras.  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+📍 Muy simple en su uso para cualquier persona que recien este empezando a adminitrar su negocio.
 
-## Customize configuration
+📍 En caso de perder el internet o cerrar la página por accidente, los datos no se pierden.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+📍 Podrás activar o desactivar los clientes en un solo click
 
-## Project Setup
+📍 **Deploy:** [Administrador de Pacientes](https://administrador-pacientes-vuejs.netlify.app/)
 
-```sh
-npm install
-```
+ <br /> 
+ 
+## **📌 ¿Qué podrás encontrar?** 
+- Formulario con Validaciones para cada uno de los items.
+- Boton para desactivar y activar a los clientes.
+- Eliminación de Clientes.
+- Creación de un archivo Json, para tener un listado con todos los datos
 
-### Compile and Hot-Reload for Development
+<br />
 
-```sh
-npm run dev
-```
+## **📌 ¿Qué tecnologías se utiliza?**
 
-### Compile and Minify for Production
+- Vue.Js
+- FormKit
+- Tailwind Css
+- Json
 
-```sh
-npm run build
-```
+<br />
+
+## **📌 ¿Cómo usarla?**
+1) Clonar el código en tu escritorio.
+2) Abrir en VSC y ubicarse en la carpeta principal.
+3) Abrir consolar e instalar dependencias (npm install)
+4) Luego de eso, ubicarse en la misma carpeta y levantar el proyecto (npm run dev)
+5) Te aparecerá una url y abrirla en el navegador.
+
+<br />
+
+### **No dudes en contactarme!** 😁
+* 👔 Mi [LinkedIn](https://www.linkedin.com/in/ernesto-aguirre-chama-a9a090269/)
+* 💼 [Portafolio](https://portafolio-ernesto-aguirre.netlify.app/)
+* 📧 **Correo:** aguirreernesto25@gmail.com
+* 📃 [Curriculum](https://drive.google.com/file/d/1d8ZnlCBlI2fiBwINQUVaSoyVkv89ID3X/view?usp=drive_link)
