@@ -10,7 +10,8 @@
 
 📍 Podrás activar o desactivar los clientes en un solo click
 
-📍 **Deploy:** [Administrador de Clientes](https://administrador-pacientes-vuejs.netlify.app/)
+📍 Antes de abrir el Deploy tendrás que levantar el Json desde el código(json-server --watch db.json --port 4000)
+📍 **Deploy:** [Administrador de Clientes](https://admin-d-clientes.netlify.app/)
 
  <br /> 
  
@@ -37,6 +38,7 @@
 3) Abrir consolar e instalar dependencias (npm install)
 4) Luego de eso, ubicarse en la misma carpeta y levantar el proyecto (npm run dev)
 5) Te aparecerá una url y abrirla en el navegador.
+6) Abrir el Json con json-server --watch db.json --port 4000
 
 <br />
 
