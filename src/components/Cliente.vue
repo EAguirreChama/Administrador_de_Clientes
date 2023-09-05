@@ -1,5 +1,4 @@
 <script setup>
-
     import { computed } from 'vue'
     import { RouterLink } from 'vue-router';
 
@@ -26,10 +25,12 @@
             <p class="font-medium text-gray-900">{{ nombreCliente }}</p>
             <p class="text-gray-500">{{ cliente.Email }}</p>
         </td>
+        
         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
             <p class="text-gray-900 font-bold">{{ cliente.Empresa }}</p>
             <p class="text-gray-600">{{ cliente.Puesto }}</p>
         </td>
+        
         <td class="whitespace-nowrap px-3 py-4 text-sm">
             <button
                 class="inline-flex rounded-full px-2 text-xs font-semibold leading-5"
@@ -39,6 +40,7 @@
                 {{ estadoCliente ? 'Activo' : 'Inactivo'}}
             </button>
         </td>
+        
         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 ">
 
             <RouterLink 
@@ -46,12 +48,10 @@
                 class="text-indigo-600 hover:text-indigo-900 mr-5"
             >Editar</RouterLink>
 
-            <button
-                class="text-red-600 hover:text-red-900"
-                @click="$emit('eliminar-cliente', cliente.id)"     
-            >
+            <button class="text-red-600 hover:text-red-900" @click="$emit('eliminar-cliente', cliente.id)">
                 Eliminar
             </button>
         </td>
+        
     </tr>
 </template>
