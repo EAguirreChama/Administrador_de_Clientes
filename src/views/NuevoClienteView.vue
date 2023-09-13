@@ -22,7 +22,7 @@
                 router.push({ name: 'inicio'})
             })
             .catch(error => console.log(error))
-    }
+    };
 </script>
 
 <template>
@@ -31,7 +31,7 @@
             <RouterLink to="inicio"> Volver a Inicio </RouterLink>
         </div>
 
-        <Heading> {{ titulo }} </Heading>
+        <Heading>{{ titulo }}</Heading>
 
         <div class="mx-auto mt-10 bg-white shadow">
             <div class="mx-auto md:w-2/3 py-20 px-6">
@@ -99,7 +99,7 @@
 </template>
 
 <style>
-    .formkit-wrapper {
-        max-width: 100%;
-    }
+.formkit-wrapper {
+    max-width: 100%;
+}
 </style>
