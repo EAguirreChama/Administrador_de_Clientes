@@ -31,7 +31,7 @@
                 clientes.value[i].estado = !estado
             })
             .catch(error => console.log(error))
-    }
+    };
 
     const eliminarCliente = (id) => {
         ClientesService.eliminarCliente(id)
@@ -39,7 +39,7 @@
                 clientes.value = clientes.value.filter(cliente => cliente.id !== id)
             })
             .catch(error => console.log(error))
-    }
+    };
 </script>
 
 <template>
