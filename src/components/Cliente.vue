@@ -13,7 +13,6 @@
     const nombreCliente = computed(() => {
         return props.cliente.Nombre + ' ' + props.cliente.Apellido
     })
-
     const estadoCliente = computed(() => {
         return props.cliente.estado 
     })
