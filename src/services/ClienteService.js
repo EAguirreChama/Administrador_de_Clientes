@@ -19,4 +19,4 @@ export default {
     eliminarCliente (id) {
         return api.delete('/clientes/' + id)
     }
-}
+};
